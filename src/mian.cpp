@@ -9,6 +9,6 @@ int mojisuu = 0;
 int main() { 
 while (mojisuu++ < 1000){
        sprintf(mojiretsu, "%d", mojisuu),
-        printf("%s, ", mojisuu % 15 ? mojisuu % 3 ? mojisuu % 5 ? mojiretsu : "Buzz" : "Fizz" : "FizzBuzz"); 
-        system("PAUSE"); 
+       printf("%s, ", mojisuu % 15 ? mojisuu % 3 ? mojisuu % 5 ? mojiretsu : "Buzz" : "Fizz" : "FizzBuzz"); 
+       system("PAUSE"); 
 }
